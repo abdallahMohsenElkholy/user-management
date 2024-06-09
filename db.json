@@ -53,6 +53,24 @@
       "location": "asdsadsad",
       "email": "asdsadsad@sds",
       "image": "../../../assets/images/user1.jpg"
+    },
+    {
+      "id": "adba",
+      "fullName": "ahmed",
+      "joinDate": "2024-06-18T21:00:00.000Z",
+      "permissions": 2,
+      "location": "egy",
+      "email": "ahmed@sd",
+      "image": "../../../assets/images/user1.jpg"
+    },
+    {
+      "id": "698a",
+      "fullName": "abdallah",
+      "joinDate": "2024-06-07T21:00:00.000Z",
+      "permissions": 1,
+      "location": "cairo",
+      "email": "abdallahmohsnz@gmail.com",
+      "image": "../../../assets/images/user3.jpg"
     }
   ],
   "admin": [
@@ -1273,6 +1291,31 @@
     },
     {
       "id": "af12",
+      "username": "superuser",
+      "password": "superuser"
+    },
+    {
+      "id": "8120",
+      "username": "superuser",
+      "password": "superuser"
+    },
+    {
+      "id": "3385",
+      "username": "superuser",
+      "password": "superuser"
+    },
+    {
+      "id": "210a",
+      "username": "superuser",
+      "password": "superuser"
+    },
+    {
+      "id": "a9cf",
+      "username": "superuser",
+      "password": "superuser"
+    },
+    {
+      "id": "0805",
       "username": "superuser",
       "password": "superuser"
     }

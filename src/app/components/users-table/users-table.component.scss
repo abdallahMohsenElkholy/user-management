@@ -48,7 +48,7 @@ table {
   .mat-mdc-paginator-container {
     background-color: #3d3d3d;
     color: #fff !important;
-    // border: 1px solid #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     justify-content: space-between !important;
     .mdc-notched-outline.mdc-notched-outline--no-label.mdc-notched-outline--notched {
       border: 1px solid #fff ;

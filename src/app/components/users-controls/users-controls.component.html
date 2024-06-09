@@ -1,5 +1,5 @@
 <div class="d-flex align-items-center justify-content-between mb-5">
-  <div class="d-flex align-items-center gap-3">
+  <div class="d-flex align-items-center gap-3 flex-wrap">
     <input
       type="search"
       class="input1 border-c-1"
@@ -28,9 +28,24 @@
           }
       </mat-menu>
     </div>
+
+    <div class="box-2 border-c-1 gap-3">
+      <div class="box-1 gap-3">
+        <span>{{ "users.joined" | translate }} :</span>
+        <span class="span-1">{{ 'users.anyTime' | translate }}</span>
+      </div>
+        <mat-icon>expand_more</mat-icon>
+    </div>
+    <div class="box-3">
+      <mat-icon>menu</mat-icon>
+    </div>
   </div>
 
-  <div class="d-flex align-items-center">
+
+  <div class="d-flex align-items-center gap-3">
+    <button class="btn btn-outline-light" style="height: 52px; border: 3px solid rgba(112, 112, 112, 0.5294117647);" (click)="print()">
+      {{ "users.export" | translate }}
+    </button>
     <button class="btn-1 bg-1" (click)="addUser()">
       {{ "users.add-user" | translate }}
     </button>

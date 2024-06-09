@@ -47,7 +47,7 @@
       <ng-container matColumnDef="joinDate">
         <th mat-header-cell *matHeaderCellDef>{{ "users.joined" | translate }}</th>
         <td mat-cell *matCellDef="let element">
-          {{ getFormatedDate(element.joinDate) }}
+          {{ element.joinDate | date }}
         </td>
       </ng-container>
 
@@ -69,7 +69,9 @@
 
       <!-- edit Column -->
       <ng-container matColumnDef="edit">
-        <th mat-header-cell *matHeaderCellDef></th>
+        <th mat-header-cell *matHeaderCellDef>
+          <mat-icon>date_range</mat-icon>
+        </th>
         <td mat-cell *matCellDef="let element">
           <button
             mat-icon-button

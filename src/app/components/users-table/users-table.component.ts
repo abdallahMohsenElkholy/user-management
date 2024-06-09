@@ -14,7 +14,7 @@ import { DeleteDialogComponent } from '../delete-dialog/delete-dialog.component'
 import { EditDialogComponent } from '../edit-dialog/edit-dialog.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
-import { CommonModule, DatePipe, NgClass } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { MatSort } from '@angular/material/sort';
 import { HeaderComponent } from '../layout/header/header.component';
 @Component({
@@ -33,8 +33,11 @@ import { HeaderComponent } from '../layout/header/header.component';
     MatPaginatorModule,
     CommonModule,
     HeaderComponent,
+    DatePipe
   ],
-  providers: [DatePipe],
+  providers: [
+    DatePipe
+  ]
 })
 export class UsersTableComponent {
   userId!: number;

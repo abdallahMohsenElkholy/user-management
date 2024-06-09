@@ -24,9 +24,11 @@
     "joined": "Joined",
     "edit": "Edit",
     "delete": "Delete",
-    "search": "Search",
+    "anyTime": "Anytime",
+    "search": "Search items...",
     "permissions": "Permissions",
-    "add-user": "Add User"
+    "add-user": "Add User",
+    "export": "Export"
   },
   "dialog": {
     "delete-user-title": "Delete User",

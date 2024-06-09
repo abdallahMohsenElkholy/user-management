@@ -70,4 +70,7 @@ export class UsersControlsComponent {
       }
     });
   }
+
+  print() {
+  }
 }
