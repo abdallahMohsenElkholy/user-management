@@ -1,0 +1,69 @@
+$mainBg: linear-gradient(180deg, #626262, #454545 30%, #1d1d1d);
+
+#users {
+  width: 100%;
+  min-height: 100vh;
+  background-image: $mainBg;
+  color: #fff;
+  h2 {
+    font-size: 29px;
+    font-weight: 400;
+  }
+}
+
+table {
+  border-collapse: unset !important;
+  box-shadow: none;
+  tr {
+    border: none !important;
+  }
+  td {
+    color: #fff;
+    font-size: 20px;
+    background-color: #494949;
+  }
+  th {
+    color: #fff;
+    font-size: 20px;
+    background-color: #3d3d3d;
+  }
+}
+
+.span {
+  border-radius: 4px;
+  padding: 4px;
+  text-align: center;
+  &-1 {
+    background-color: #de6767;
+  }
+  &-2 {
+    background-color: #33505d;
+  }
+  &-3 {
+    background-color: #000;
+  }
+}
+
+::ng-deep {
+  .mat-mdc-paginator-container {
+    background-color: #3d3d3d;
+    color: #fff !important;
+    // border: 1px solid #fff !important;
+    justify-content: space-between !important;
+    .mdc-notched-outline.mdc-notched-outline--no-label.mdc-notched-outline--notched {
+      border: 1px solid #fff ;
+      border-radius: 4px;
+    }
+    .mat-mdc-select,
+    .mat-mdc-select-arrow {
+      color: #fff !important;
+    }
+  }
+  .mat-mdc-paginator-range-actions {
+    button{
+      svg{
+        fill: #fff !important;
+      }
+    }
+  }
+}

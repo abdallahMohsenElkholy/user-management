@@ -1,0 +1,43 @@
+<form [formGroup]="userForm" class="d-flex flex-column gap-3 p-5">
+  <mat-form-field>
+    <mat-label>{{ 'form.fullName' | translate }}</mat-label>
+    <input matInput formControlName="fullName" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{ 'form.email' | translate }}</mat-label>
+    <input matInput formControlName="email" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{ 'form.joinDate' | translate }}</mat-label>
+    <input matInput [matDatepicker]="picker" formControlName="joinDate" />
+    <mat-hint>{{ 'form.dateHint' | translate }}</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>{{ 'form.location' | translate }}</mat-label>
+    <input matInput formControlName="location" />
+  </mat-form-field>
+
+  <mat-form-field color="accent">
+    <mat-label>{{ 'form.permissions' | translate }}</mat-label>
+    <mat-select formControlName="permissions">
+      @for (item of permissions; track $index) {
+        <mat-option [value]="item.value">{{ item.name }}</mat-option>
+        }
+    </mat-select>
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    color="primary"
+    type="submit"
+    [disabled]="userForm.invalid"
+    (click)="editUser()"
+  >
+    {{ data.type === "edit" ? ('form.edit' | translate) : ('form.add' | translate) }}
+  </button>
+</form>

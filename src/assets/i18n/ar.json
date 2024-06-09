@@ -1,0 +1,47 @@
+{
+  "login": {
+    "title": "اداره المستخدم",
+    "welcome": "مرحبًا",
+    "register": "تسجيل",
+    "Login_to_EDUX": "تسجيل الدخول إلى اداره المستخدم",
+    "email": "البريد الإلكتروني",
+    "email_placeholder": "مثال example@mail.com",
+    "password": "كلمة المرور",
+    "password_placeholder": "**********",
+    "forgot-your-password": "نسيت كلمة المرور؟",
+    "sign-in-now": "تسجيل الدخول الآن",
+    "or": "أو",
+    "required": "مطلوب",
+    "email-is": "البريد الإلكتروني",
+    "password-is": "كلمة المرور",
+    "user-management-login": "تسجيل الدخول"
+  },
+  "users": {
+    "user-management": "إدارة المستخدم",
+    "fullName": "الاسم الكامل",
+    "email": "عنوان البريد الإلكتروني",
+    "location": "الموقع",
+    "joined": "تاريخ الانضمام",
+    "permissions": "الصلاحيات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "search": "بحث",
+    "add-user": "إضافة مستخدم"
+  },
+  "dialog": {
+    "delete-user-title": "حذف المستخدم",
+    "delete-user-content": "هل تريد حذف هذا المستخدم؟",
+    "no": "لا",
+    "ok": "نعم"
+  },
+  "form": {
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "joinDate": "تاريخ الانضمام",
+    "dateHint": "MM/DD/YYYY",
+    "location": "الموقع",
+    "permissions": "الصلاحيات",
+    "edit": "تعديل",
+    "add": "إضافة"
+  }
+}

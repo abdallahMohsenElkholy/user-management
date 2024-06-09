@@ -1,0 +1,47 @@
+{
+  "login": {
+    "title": "User Management",
+    "welcome": "Welcome",
+    "register": "Register",
+    "Login_to_EDUX": "Login to User Management",
+    "email": "Email",
+    "email_placeholder": "Ex. example@mail.com",
+    "password": "Password",
+    "password_placeholder": "**********",
+    "forgot-your-password": "Forgot your password?",
+    "sign-in-now": "Sign in now",
+    "or": "Or",
+    "required": "required",
+    "email-is": "Email is",
+    "password-is": "Password is",
+    "user-management-login": "User Management Login"
+  },
+  "users": {
+    "user-management": "User Management",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "location": "Location",
+    "joined": "Joined",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "permissions": "Permissions",
+    "add-user": "Add User"
+  },
+  "dialog": {
+    "delete-user-title": "Delete User",
+    "delete-user-content": "Would you like to delete this user?",
+    "no": "No",
+    "ok": "Ok"
+  },
+  "form": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "joinDate": "Join Date",
+    "dateHint": "MM/DD/YYYY",
+    "location": "Location",
+    "permissions": "Permission",
+    "edit": "Edit",
+    "add": "Add"
+  }
+}

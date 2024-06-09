@@ -1,0 +1,13 @@
+<nav class="navbar  bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2">{{ "users.user-management" | translate }}</a>
+    <form class="d-flex gap-4" role="search">
+      <button class="btn btn-outline-light d-flex" (click)="switchingLanguage()">
+        <mat-icon>language</mat-icon>
+      </button>
+      <button class="btn btn-outline-danger d-flex" (click)="logout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </form>
+  </div>
+</nav>
